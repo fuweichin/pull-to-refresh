@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+     "description": "",
+     "message": "Pull to refresh"
+  },
+  "shortName": {
+    "description": "",
+    "message": "Pull refresh"
+  },
+  "extensionDesc": {
+     "description": "",
+     "message": "Supports pull-to-refresh with touchscreens and precision touchpads, similar to overscroll history navigation."
+  }
+}

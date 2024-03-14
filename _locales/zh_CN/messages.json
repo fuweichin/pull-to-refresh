@@ -1,0 +1,14 @@
+{
+   "extensionName": {
+      "description": "",
+      "message": "下拉以刷新"
+   },
+   "shortName": {
+      "description": "",
+      "message": "下拉刷新"
+   },
+   "extensionDesc": {
+      "description": "",
+      "message": "支持下拉以刷新通过触屏或精确式触摸板, 类似于水平超量滚动以触发历史导航"
+   }
+}
