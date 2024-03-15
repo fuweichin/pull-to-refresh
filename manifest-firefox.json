@@ -21,7 +21,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "pull-to-refresh@addons.mozilla.org",
-      "strict_min_version": "117"
+      "strict_min_version": "117.0"
     }
   }
 }

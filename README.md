@@ -18,14 +18,15 @@ For Firefox, open about:config, set apz.overscroll.enabled to false.
 ## Usage
 
 Pull page down.
-When pulled by 1/3 of viewport height, an indicator will be visible.
-When pulled by 2/3 of viewport height, the indicator will be active.
+When pulled by 1/4 of viewport height, an indicator will be visible.
+When pulled by 1/2 of viewport height, the indicator will be active.
 
 ## Features
 
-This extension respects website settings, it tries not to mess up with some interactive web apps, its pull behavior will be prevented when
+This extension respects website settings, it tries not to mess up with css settings / js instructions / , its pull behavior will be prevented when
 
 + CSS `overscroll-behaviour-y: none` is set on body
 + CSS `touch-action: none` is set on body or on target element (e.g. canvas)
 + JavaScript `event.preventDefault()` is called in `touchstart` / `touchmove` / `wheel` event listener
 
+The reloading indicator of this extension uses an uniform style as indicators of history overscroll navigation, looks as if it's a built-in feature.
